@@ -9,9 +9,9 @@
  Issues: https://github.com/RyanFitzgerald/vertical-timeline/issues
  LICENSE: MIT
  */
-const jQuery = require('jquery')
+import jQuery from 'jquery'
 
-export default (function ($) {
+(function ($) {
 
   // Check viewport
   var inViewport = function inViewport(ele) {
@@ -120,3 +120,5 @@ export default (function ($) {
     });
   };
 })(jQuery);
+
+export default jQuery;
